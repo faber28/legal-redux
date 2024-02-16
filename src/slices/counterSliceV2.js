@@ -43,4 +43,4 @@ export const counterSliceV2 = createAppSlice({
     }
 });
 
-export const { incrementAsync } = counterSliceV2.actions;
+export const { incrementAsync, increment, decrement } = counterSliceV2.actions;
